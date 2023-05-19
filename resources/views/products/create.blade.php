@@ -23,23 +23,23 @@
         @csrf
         @method('post')
         <div>
-            <label >Name</label>
-            <input type="text" name="name" placeholder="Name"/>
+            <label >Nama Surveyor</label>
+            <input type="text" name="name" placeholder="Masukkan Nama"/>
         </div>
         <br>
         <div>
-            <label >Qty</label>
-            <input type="text" name="qty" placeholder="Qty"/>
+            <label >Nama Responden</label>
+            <input type="text" name="qty" placeholder="Masukkan Nama"/>
         </div>
         <br>
         <div>
-            <label >Price</label>
-            <input type="text" name="price" placeholder="Price"/>
+            <label >No Urut Pilihan</label>
+            <input type="text" name="price" placeholder="Masukkan Nomor"/>
         </div>
         <br>
         <div>
-            <label >Description</label>
-            <input type="text" name="description" placeholder="Description"/>
+            <label >Alasan Memilih</label>
+            <input type="text" name="description" placeholder="Masukkan Alasan"/>
         </div>
         <br>
         <div>

@@ -17,13 +17,16 @@
         @endif
     </div>
     <div>
+        <div>
+            <a href="{{route('product.create')}}">Tambah Responden</a>
+        </div>
         <table border="1">
             <tr>
                 <th>ID</th>
-                <th>Name</th>
-                <th>Qty</th>
-                <th>Price</th>
-                <th>Description</th>
+                <th>Nama Surveyor</th>
+                <th>Nama Responden</th>
+                <th>No Urut Pilihan</th>
+                <th>Alasan Memilih</th>
                 <th>Edit</th>
                 <th>Delete</th>
             </tr>
